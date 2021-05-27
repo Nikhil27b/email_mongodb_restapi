@@ -5,7 +5,6 @@ const User = require("./model/user")
 const path = require("path");
 const port = process.env.port || 3000;
 const hbs = require("hbs");
-const { send } = require("process");
 const app = express();
 
 
@@ -25,10 +24,6 @@ app.use(express.static(static));
 
 app.get("/", (req,res)=>{
   res.status(200).send("Data");
-  })
-
-app.get("/user", (req,res)=>{
-  res.status(200).render("index")
   })
 
 
