@@ -15,9 +15,12 @@ Simple Upload File UI With Mongodb Database
 # Install dependencies
 npm install
 
-# Go to client for backend
+# Go for static website 
+cd/client - and open html
 
-cd/client
+# Go to server for backend
+
+cd/server
 
 # Run in development
 npm run dev
